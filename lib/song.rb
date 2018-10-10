@@ -29,6 +29,10 @@ def self.artists
 end
 
 def self.genre_count
+  genre_hash = {}
+  @@genres.each do |genre|
+    if genre_hash.has_key?
+    genre_hash[genre] = 1
 end
 
 def self.artist_count
